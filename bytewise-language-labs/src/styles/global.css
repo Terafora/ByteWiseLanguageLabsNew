@@ -1,0 +1,81 @@
+/* Reset and Global Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  header.navbar {
+    background-color: #0d1117;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header.navbar nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  header.navbar .logo a {
+    font-size: 1.5rem;
+    color: #61dafb;
+    text-decoration: none;
+  }
+  
+  header.navbar .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  header.navbar .nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  
+  header.navbar .nav-links li a:hover {
+    color: #61dafb;
+  }
+  
+  main.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 4rem 1rem;
+    background-color: #0d1117;
+    color: white;
+    min-height: 80vh;
+  }
+  
+  main.hero .hero-content {
+    max-width: 800px;
+  }
+  
+  main.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  main.hero p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+  }
+  
+  main.hero .video-container {
+    max-width: 100%;
+    overflow: hidden;
+  }
+  
+  main.hero video {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
