@@ -33,8 +33,8 @@ export default function Home() {
           </video>
         </div>
         <div className="hero-content">
-          <h1>Learn Japanese in Virtual Reality</h1>
-          <p>Immersive language learning experiences to transform your skills.</p>
+          <h1>Step Into Japan—Virtually, Powerfully, Fluently.</h1>
+          <p>Unlock the language, culture, and confidence of Japanese with cutting-edge virtual reality. Immerse yourself in a world where learning feels natural, engaging, and unforgettable.</p>
         </div>
       </main>
     </>
